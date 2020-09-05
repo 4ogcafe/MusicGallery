@@ -384,7 +384,7 @@ a, a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   html {
     font-size: 55%;
   }
@@ -400,6 +400,8 @@ a, a:hover {
     padding-right: 0%;
   }
   .main_header .navbar .navbar-toggler {
+    background-color: #fff;
+    color: #000;
     border-color: white;
   }
   .header_hero__text .header_text__btn {

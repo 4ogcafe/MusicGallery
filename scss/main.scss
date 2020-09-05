@@ -236,7 +236,7 @@ a, a:hover{
 }
 
 // responsive code start
-@media (max-width: 768px){
+@media (max-width: 800px){
     html{
         font-size: 55%;
     }
@@ -255,6 +255,8 @@ a, a:hover{
       }
 
     .navbar .navbar-toggler{
+        background-color: #fff;
+        color: #000;
         border-color: rgba($color: #fff, $alpha: 1.0);
     }
   }
